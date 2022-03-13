@@ -1,0 +1,33 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+   
+    
+}
+body{
+    background: rgb(240, 235, 235);
+    
+}
+.review{
+    font-family: 'Dancing Script', cursive;
+}
+.custom-text-color{
+    color: lightcoral;
+}
+.custom-btn:hover{
+    background-color:#0d6efd;
+    color: white  !important;
+}
+@media only screen and (max-width: 450px) {
+    .car-text{
+     
+        font-size: 10px;
+        margin: 20px 0;
+        background-color: none;
+        border: none;
+        padding: 10px 0;
+    }
+    .car-img{
+        height: 500px;
+        width: 100%;
+    }
+}
